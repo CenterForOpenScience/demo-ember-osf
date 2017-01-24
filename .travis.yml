@@ -1,24 +1,25 @@
 ---
 language: node_js
-node_js:
-  - "4"
 
 sudo: false
+dist: trusty
 
 cache:
+  yarn: true
   directories:
     - node_modules
 
 before_install:
-  - npm config set spin false
-  - npm install -g bower
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH=$HOME/.yarn/bin:$PATH
+  - yarn install -g bower
   - bower --version
-  - npm install phantomjs-prebuilt
+  - yarn install phantomjs-prebuilt
   - node_modules/phantomjs-prebuilt/bin/phantomjs --version
 
 install:
-  - npm install
+  - yarn install --pure-lockfile
   - bower install
 
 script:
-  - npm test
+  - yarn test
