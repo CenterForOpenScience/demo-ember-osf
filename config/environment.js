@@ -19,6 +19,10 @@ module.exports = function(environment) {
         //cdn: 'https://cdn.ravenjs.com/3.5.1/ember/raven.min.js'
     },
 
+
+   // TODO: Remove this line once ember-osf fix for default config goes in
+    authorizationType: 'token',
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

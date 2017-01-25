@@ -1,0 +1,11 @@
+<p>
+    Welcome to your new demonstration app! We hope you enjoy using the OSF. The following demonstration pages are
+    available to showcase sample functionality:
+</p>
+
+<ul>
+    {{#unless session.isAuthenticated}}
+        <li>{{#link-to "login"}}Log in{{/link-to}}</li>
+    {{/unless}}
+    <li>{{#link-to "me"}}User information{{/link-to}} (requires user to be logged in)</li>
+</ul>

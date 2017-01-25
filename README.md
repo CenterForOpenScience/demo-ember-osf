@@ -2,7 +2,7 @@
 
 This is a demonstration project that consumes the ember-osf Ember addon, produced by the Center for Open Science.
 
-The focus is on basic scaffolding, incorporating opinionated best practices such as documentation, style guide 
+The focus is on basic scaffolding, incorporating opinionated best practices such as documentation tools, style guide 
 checking, and CI build scripts. 
 
 This application is based on Ember 2.8 LTS, Yarn, nvm, and YUIDoc.  It applies linters for JS and template style.
