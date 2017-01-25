@@ -26,7 +26,9 @@ You will need the following things properly installed on your computer.
 * `cd demo-ember-osf`
 * `yarn install --pure-lockfile`
 * `bower install`
-
+* `ember g ember-osf` - will generate `config/local.yml`; fill in the
+ [required fields](https://github.com/CenterForOpenScience/ember-osf#configuration)
+ 
 ## Running / Development
 
 * `ember serve`

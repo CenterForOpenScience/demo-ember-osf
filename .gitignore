@@ -18,3 +18,6 @@ testem.log
 
 # IDE settings
 .idea
+
+# Don't commit configuration or private settings
+/config/*.yml
