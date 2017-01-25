@@ -22,12 +22,17 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/abought/demo-ember-osf.git -o upstream` this repository
 * `cd demo-ember-osf`
 * `yarn install --pure-lockfile`
 * `bower install`
 * `ember g ember-osf` - will generate `config/local.yml`; fill in the
  [required fields](https://github.com/CenterForOpenScience/ember-osf#configuration)
+
+ 
+## Additional configuration
+If you would like to log errors to Sentry, add `SENTRY_DSN` to your `local.yml` file, and specify the appropriate 
+configuration string for your server. 
  
 ## Running / Development
 
@@ -51,3 +56,8 @@ To run all tests required for CI, use:
 
 * `ember build` (development)
 * `ember build --environment production` (production)
+
+
+## Where to go from here
+There are several packages that can enhance your large-scale applications, but are not included in this scaffold:
+- `ember-i18n`
