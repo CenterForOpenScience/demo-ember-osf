@@ -31,8 +31,9 @@ You will need the following things properly installed on your computer.
 
  
 ## Additional configuration
-If you would like to log errors to Sentry, add `SENTRY_DSN` to your `local.yml` file, and specify the appropriate 
-configuration string for your server. 
+If you would like to log errors to Sentry, add `SENTRY_DSN` to the correct section of your `local.yml` file, and 
+specify the appropriate configuration string for your server/ project. We encourage remote error logging for all COS 
+projects.
  
 ## Running / Development
 
@@ -58,6 +59,14 @@ To run all tests required for CI, use:
 * `ember build --environment production` (production)
 
 
-## Where to go from here
+## Tips: where to go from here
 There are several packages that can enhance your large-scale applications, but are not included in this scaffold:
 - `ember-i18n`
+
+## Future features to add to this app
+In the future, we will add:
+- Badges for Travis and code coverage (to encourage good unit testing)
+- Demonstrate of nested route / paginated requests according to ember best practices
+- Integrate OSF styles and other ember-osf widgets into ember-cli-build.js by default
+- authorizationType default (deprecate hard-coding it in this app)
+- github pr templates

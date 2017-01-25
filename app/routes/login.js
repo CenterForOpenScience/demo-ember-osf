@@ -4,4 +4,9 @@ import UnauthenticatedRouteMixin from 'ember-simple-auth/mixins/unauthenticated-
 import OsfTokenLoginRouteMixin from 'ember-osf/mixins/osf-token-login-route';
 
 // Sample login page. After successful login, user will be taken to the site homepage
-export default Ember.Route.extend(UnauthenticatedRouteMixin, OsfTokenLoginRouteMixin);
+export default Ember.Route.extend(UnauthenticatedRouteMixin, OsfTokenLoginRouteMixin, {
+    beforeModel() {
+        // TODO: Possible bug situation: since error isn't reraised in mixin, this may send user to homepage even if log fails
+        return this._super().then(() => this.transitionTo('index'));
+    }
+});
