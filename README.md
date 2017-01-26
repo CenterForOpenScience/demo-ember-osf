@@ -9,7 +9,8 @@ This is a demonstration project that consumes the ember-osf Ember addon, produce
 The focus is on basic scaffolding, incorporating opinionated best practices such as documentation tools, style guide 
 checking, and CI build scripts. 
 
-This application is based on Ember 2.8 LTS, Yarn, nvm, and YUIDoc.  It applies linters for JS and template style.
+This application is based on Ember 2.8 LTS, yarn, nvm, and YUIDoc.  It applies linters for JS and template style, and
+ incorporates badges and config for health reporting services such as Travis and Coveralls.io.
 
 In the future we may add a dependency on `ember-i18n`, depending on goals for this demonstration app.
 
@@ -18,7 +19,7 @@ In the future we may add a dependency on `ember-i18n`, depending on goals for th
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
+* [NVM](https://github.com/creationix/nvm) or [Node.js](http://nodejs.org/)
 * [Yarn](https://yarnpkg.com/en/docs/install) (NPM replacement)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://ember-cli.com/)
