@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/abought/demo-ember-osf.svg?branch=develop)](https://travis-ci.org/abought/demo-ember-osf)
+
 # Demo-ember-osf
 
 This is a demonstration project that consumes the ember-osf Ember addon, produced by the Center for Open Science.
@@ -61,12 +63,12 @@ To run all tests required for CI, use:
 
 ## Tips: where to go from here
 There are several packages that can enhance your large-scale applications, but are not included in this scaffold:
-- `ember-i18n`
+- `ember-i18n` (may be added in the future)
+- `ember-a11y` (may be added in the future)
 
 ## Future features to add to this app
 In the future, we will add:
-- Badges for Travis and code coverage (to encourage good unit testing)
+- Badges for code coverage (to encourage good unit testing)
 - Demonstrate of nested route / paginated requests according to ember best practices
 - Integrate OSF styles and other ember-osf widgets into ember-cli-build.js by default
-- authorizationType default (deprecate hard-coding it in this app)
-- github pr templates
+- https://github.com/ember-a11y/ember-a11y-testing
