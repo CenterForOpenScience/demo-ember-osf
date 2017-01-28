@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/abought/demo-ember-osf.svg?branch=develop)](https://travis-ci.org/abought/demo-ember-osf)
-
 [![Coverage Status](https://coveralls.io/repos/github/abought/demo-ember-osf/badge.svg?branch=develop)](https://coveralls.io/github/abought/demo-ember-osf?branch=develop)
 
 # Demo-ember-osf
@@ -7,7 +6,7 @@
 This is a demonstration project that consumes the ember-osf Ember addon, produced by the Center for Open Science.
 
 The focus is on basic scaffolding, incorporating opinionated best practices such as documentation tools, style guide 
-checking, and CI build scripts. 
+checking, and CI build scripts/ code coverage metrics. 
 
 This application is based on Ember 2.8 LTS, yarn, nvm, and YUIDoc.  It applies linters for JS and template style, and
  incorporates badges and config for health reporting services such as Travis and Coveralls.io.
@@ -71,7 +70,6 @@ There are several packages that can enhance your large-scale applications, but a
 
 ## Future features to add to this app
 In the future, we will add:
-- Badges for code coverage (to encourage good unit testing)
 - Demonstrate nested route / paginated requests according to ember best practices
 - Integrate OSF styles and other ember-osf widgets into ember-cli-build.js by default
 - https://github.com/ember-a11y/ember-a11y-testing
