@@ -41,7 +41,7 @@ projects.
  
 ## Running / Development
 
-* `ember serve`
+* `BACKEND=stage ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
