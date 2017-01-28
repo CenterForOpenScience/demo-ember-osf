@@ -7,6 +7,10 @@ import OsfTokenLoginRouteMixin from 'ember-osf/mixins/osf-token-login-route';
 export default Ember.Route.extend(UnauthenticatedRouteMixin, OsfTokenLoginRouteMixin, {
     beforeModel() {
         // TODO: Possible bug situation: since error isn't reraised in mixin, this may send user to homepage even if log fails
-        return this._super().then(() => this.transitionTo('index'));
+        const res = this._super();
+        if (res) {
+            // Slightly inelegant hack: If yanking to another page, there will be no return value from super. If auth succeeded, transition to home.
+            res.then(() => this.transitionTo('index'));
+        }
     }
 });
