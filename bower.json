@@ -11,7 +11,9 @@
     "osf-style": "https://github.com/CenterForOpenScience/osf-style.git#48197d234baf07c321c56edfd9f48b5624374453",
     "bootstrap-sass": "^3.3.6",
     "raven-js": "~3.3",
-    "toastr": "^2.1.2",
+    "toastr": "^2.1.2"
+  },
+  "devDependencies": {
     "axe-core": "~2.0.5"
   }
 }
