@@ -4,8 +4,9 @@
 </p>
 
 <ul>
-    {{#unless session.isAuthenticated}}
+    {{#if session.isAuthenticated}}
+        <li>{{#link-to "me"}}User information{{/link-to}} (requires user to be logged in)</li>
+    {{else}}
         <li>{{#link-to "login"}}Log in{{/link-to}}</li>
-    {{/unless}}
-    <li>{{#link-to "me"}}User information{{/link-to}} (requires user to be logged in)</li>
+    {{/if}}
 </ul>
