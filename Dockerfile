@@ -48,10 +48,7 @@ RUN ./node_modules/bower/bin/bower install --allow-root --config.interactive=fal
 
 COPY ./ /code/
 
-ARG GIT_COMMIT=
-ENV GIT_COMMIT ${GIT_COMMIT}
-
-ARG APP_ENV=production
+ARG APP_ENV=development
 ENV APP_ENV ${APP_ENV}
 ARG BACKEND=local
 ENV BACKEND ${BACKEND}
