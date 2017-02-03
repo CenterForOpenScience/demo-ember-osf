@@ -41,8 +41,12 @@ projects.
  
 ## Running / Development
 
+### Without Docker
 * `BACKEND=stage ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+
+### With Docker
+* `docker build -t demo-ember-osf . && docker run -p 4200:4200 demo-ember-osf BACKEND=stage ./node_modules/ember-cli/bin/ember serve`
 
 ### Code Generators
 
@@ -55,7 +59,10 @@ Unit tests can be run as follows:
 * `ember test --server`
 
 To run all tests required for CI, use:
-* `yarn run test`
+* `yarn test`
+
+Testing with docker:
+* `docker build -t demo-ember-osf . && docker run demo-ember-osf`
 
 ### Building
 
