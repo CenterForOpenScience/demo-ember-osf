@@ -30,7 +30,7 @@ You will need the following things properly installed on your computer.
 * `cd demo-ember-osf`
 * `yarn install --pure-lockfile`
 * `bower install`
-* `ember g ember-osf` - will generate `config/local.yml`; fill in the
+* `ember generate ember-osf` - will generate `config/local.yml`; fill in the
  [required fields](https://github.com/CenterForOpenScience/ember-osf#configuration)
 
  
@@ -42,7 +42,7 @@ projects.
 ## Running / Development
 
 ### Without Docker
-* `BACKEND=stage ember serve`
+* `BACKEND=stage ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### With Docker
