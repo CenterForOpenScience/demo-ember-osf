@@ -57,6 +57,7 @@
     "ember-welcome-page": "^1.0.1",
     "jscs": "^3.0.7",
     "loader.js": "^4.0.1",
+    "phantomjs-prebuilt": "2.1.14",
     "yuidocjs": "^0.10.2"
   },
   "dependencies": {},
