@@ -51,7 +51,7 @@
     "ember-data": "^2.8.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
-    "ember-osf": "git+https://github.com/CenterForOpenScience/ember-osf.git#ac254f87274044fb97d6a712efa5ff2433bd0537",
+    "ember-osf": "git+https://github.com/CenterForOpenScience/ember-osf.git#6bd19bf5112cb89e49de99481a1189d72906e162",
     "ember-page-title": "3.1.5",
     "ember-resolver": "^2.0.3",
     "ember-welcome-page": "^1.0.1",
