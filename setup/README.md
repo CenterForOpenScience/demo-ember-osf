@@ -4,6 +4,7 @@
 ability to quickly get started with a free, public, and shareable workspace. The following steps will ensure that your
 Cloud 9 environment is set properly.
 
+## Setup Steps (10-15 minutes)
 1. Create a new workspace
   - Use the https git url (not the ssh git url) for the *Clone from Git* field
 1. (In the terminal) Run `git checkout <branch>`, where <branch> is the branch name (e.g. `develop`)
