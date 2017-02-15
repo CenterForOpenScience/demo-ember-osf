@@ -77,5 +77,4 @@ There are several packages that can enhance your large-scale applications, but a
 ## Future features to add to this app
 In the future, we will add:
 - Demonstrate nested route / paginated requests according to ember best practices
-- Improve a11y testing (currently runs during acceptance tests, but does not cause tests to fail; 
-  see [known pending issue](https://github.com/ember-a11y/ember-a11y-testing/issues/47))
+
