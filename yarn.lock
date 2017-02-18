@@ -1678,9 +1678,9 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-ember-a11y-testing@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/ember-a11y-testing/-/ember-a11y-testing-0.2.0.tgz#55132cba6597647bd375459e66ba30f42ef6c306"
+ember-a11y-testing@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/ember-a11y-testing/-/ember-a11y-testing-0.2.1.tgz#06d4123ca2f9de857dd41b5062142249bf9a178f"
   dependencies:
     axe-core "~2.1.7"
     broccoli-funnel "^1.1.0"
