@@ -12,8 +12,5 @@
     "bootstrap-sass": "^3.3.6",
     "raven-js": "~3.3",
     "toastr": "^2.1.2"
-  },
-  "devDependencies": {
-    "axe-core": "~2.0.5"
   }
 }
