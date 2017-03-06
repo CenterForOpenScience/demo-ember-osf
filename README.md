@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/abought/demo-ember-osf.svg?branch=develop)](https://travis-ci.org/abought/demo-ember-osf)
 [![Coverage Status](https://coveralls.io/repos/github/abought/demo-ember-osf/badge.svg?branch=develop)](https://coveralls.io/github/abought/demo-ember-osf?branch=develop)
+[![Known Vulnerabilities](https://snyk.io/test/github/abought/demo-ember-osf/badge.svg)](https://snyk.io/test/github/abought/demo-ember-osf)
 
 # Demo-ember-osf
 
