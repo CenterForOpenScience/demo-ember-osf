@@ -1,10 +1,9 @@
 [![Build Status](https://travis-ci.org/abought/demo-ember-osf.svg?branch=develop)](https://travis-ci.org/abought/demo-ember-osf)
 [![Coverage Status](https://coveralls.io/repos/github/abought/demo-ember-osf/badge.svg?branch=develop)](https://coveralls.io/github/abought/demo-ember-osf?branch=develop)
 [![Known Vulnerabilities](https://snyk.io/test/github/abought/demo-ember-osf/badge.svg)](https://snyk.io/test/github/abought/demo-ember-osf)
+[![Greenkeeper badge](https://badges.greenkeeper.io/abought/demo-ember-osf.svg)](https://greenkeeper.io/)
 
 # Demo-ember-osf
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/abought/demo-ember-osf.svg)](https://greenkeeper.io/)
 
 This is a demonstration project that consumes the ember-osf Ember addon, produced by the Center for Open Science.
 
@@ -71,7 +70,6 @@ Testing with docker:
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
 
 ## Tips: where to go from here
 There are several packages that can enhance your large-scale applications, but are not included in this scaffold:
