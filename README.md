@@ -4,6 +4,8 @@
 
 # Demo-ember-osf
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/abought/demo-ember-osf.svg)](https://greenkeeper.io/)
+
 This is a demonstration project that consumes the ember-osf Ember addon, produced by the Center for Open Science.
 
 The focus is on basic scaffolding, incorporating opinionated best practices such as documentation tools, style guide 

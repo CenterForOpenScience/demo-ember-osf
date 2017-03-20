@@ -2,7 +2,7 @@
   "name": "demo-ember-osf",
   "dependencies": {
     "dropzone": "^4.3.0",
-    "ember": "~2.8.0",
+    "ember": "lts-2-8",
     "ember-cli-shims": "0.1.1",
     "font-awesome": "~4.6.3",
     "hint.css": "^2.3.2",
@@ -12,5 +12,8 @@
     "bootstrap-sass": "^3.3.6",
     "raven-js": "~3.3",
     "toastr": "^2.1.2"
+  },
+  "resolutions": {
+    "ember": "lts-2-8"
   }
 }
