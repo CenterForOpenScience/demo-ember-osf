@@ -8,7 +8,7 @@
     "hint.css": "^2.3.2",
     "jquery.tagsinput": "^1.3.6",
     "loaders.css": "^0.1.2",
-    "osf-style": "https://github.com/CenterForOpenScience/osf-style.git#48197d234baf07c321c56edfd9f48b5624374453",
+    "osf-style": "https://github.com/CenterForOpenScience/osf-style.git#a5f28d0ad73c678a17b84cfb84071227d57f202b",
     "raven-js": "~3.3",
     "toastr": "^2.1.2"
   },
