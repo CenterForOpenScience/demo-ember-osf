@@ -1,18 +1,16 @@
-import Ember from 'ember';
-import Resolver from './resolver';
+import Ember, { Application } from 'ember';
 import loadInitializers from 'ember-load-initializers';
-import config from './config/environment';
-
-let App;
+import { modulePrefix, podModulePrefix } from 'ember-get-config';
+import Resolver from './resolver';
 
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
-App = Ember.Application.extend({
-    modulePrefix: config.modulePrefix,
-    podModulePrefix: config.podModulePrefix,
-    Resolver
+const App = Application.extend({
+    modulePrefix,
+    podModulePrefix,
+    Resolver,
 });
 
-loadInitializers(App, config.modulePrefix);
+loadInitializers(App, modulePrefix);
 
 export default App;

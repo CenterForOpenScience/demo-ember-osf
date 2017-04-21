@@ -1,20 +1,18 @@
-/*jshint node:true*/
-/* global require, module */
-var path = require('path');
+const path = require('path');
 
-var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function (defaults) {
-    var app = new EmberApp(defaults, {
+    const app = new EmberApp(defaults, {
         sourcemaps: {
             // Ensure sourcemaps are enabled in production, not just development
             enabled: true,
-            extensions: ['js']
+            extensions: ['js'],
         },
 
         babel: {
             optional: ['es6.spec.symbols'],
-            includePolyfill: true
+            includePolyfill: true,
         },
 
         // Addon configuration for specific addons
@@ -22,13 +20,13 @@ module.exports = function (defaults) {
             includePaths: [
                 'node_modules/ember-osf/addon/styles',
                 'bower_components/osf-style/sass',
-                'bower_components/hint.css'
-            ]
+                'bower_components/hint.css',
+            ],
         },
         'ember-bootstrap': {
             importBootstrapCSS: false,
-            'bootstrapVersion': 3,
-            'importBootstrapFont': true
+            bootstrapVersion: 3,
+            importBootstrapFont: true,
         },
     });
 
@@ -54,20 +52,20 @@ module.exports = function (defaults) {
 
 
     app.import(path.join(app.bowerDirectory, 'osf-style/img/cos-white2.png'), {
-        destDir: 'img'
+        destDir: 'img',
     });
 
     // app.import('bower_components/dropzone/dist/dropzone.js');
     app.import({
         development: path.join(app.bowerDirectory, 'dropzone/dist/dropzone.css'),
-        production: path.join(app.bowerDirectory, 'dropzone/dist/min/dropzone.min.css')
+        production: path.join(app.bowerDirectory, 'dropzone/dist/min/dropzone.min.css'),
     });
 
     app.import(path.join(app.bowerDirectory, 'jquery.tagsinput/src/jquery.tagsinput.js'));
 
     app.import({
         development: path.join(app.bowerDirectory, 'hint.css/hint.css'),
-        production: path.join(app.bowerDirectory, 'hint.css/hint.css')
+        production: path.join(app.bowerDirectory, 'hint.css/hint.css'),
     });
 
     // Import component styles from addon
