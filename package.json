@@ -29,7 +29,7 @@
     "coveralls": "^2.11.15",
     "ember-a11y-testing": "0.2.1",
     "ember-ajax": "^2.0.1",
-    "ember-bootstrap": "1.0.0-alpha.10",
+    "ember-bootstrap": "1.0.0-alpha.11",
     "ember-cli": "~2.8.0",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^5.1.6",
