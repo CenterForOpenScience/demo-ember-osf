@@ -44,9 +44,11 @@ module.exports = function(environment) {
         ENV.APP.rootElement = '#ember-testing';
     }
 
+    /* eslint-disable no-empty */
     if (environment === 'production') {
-    // eslint-ignore-line no-empty
+
     }
+    /* eslint-enable */
 
     return ENV;
 };

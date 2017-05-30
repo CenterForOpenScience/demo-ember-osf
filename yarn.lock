@@ -937,11 +937,7 @@ babylon@^5.8.38:
   version "5.8.38"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-5.8.38.tgz#ec9b120b11bf6ccd4173a18bf217e60b79859ffd"
 
-babylon@^6.11.0, babylon@^6.15.0:
-  version "6.16.1"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.16.1.tgz#30c5a22f481978a9e7f8cdfdf496b11d94b404d3"
-
-babylon@^6.17.0:
+babylon@^6.11.0, babylon@^6.15.0, babylon@^6.17.0:
   version "6.17.0"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.17.0.tgz#37da948878488b9c4e3c4038893fa3314b3fc932"
 
@@ -3082,19 +3078,20 @@ eslint-config-airbnb-base@^11.1.3:
   version "11.1.3"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-11.1.3.tgz#0e8db71514fa36b977fbcf977c01edcf863e0cf0"
 
-eslint-config-cos-base@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-cos-base/-/eslint-config-cos-base-0.2.0.tgz#680dfa2c0808bc24532dbaef4c7ed45130c6810f"
+eslint-config-cos-base@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-cos-base/-/eslint-config-cos-base-0.4.0.tgz#8733a3b24b2fcd55f3db6c44db5272d4b2880ed4"
   dependencies:
     babel-eslint "^7.2.3"
     eslint-config-airbnb-base "^11.1.3"
+    eslint-plugin-eslint-comments "^1.0.0"
     eslint-plugin-import "^2.2.0"
 
-eslint-config-cos-ember@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-cos-ember/-/eslint-config-cos-ember-0.2.0.tgz#4886d2749e290eb2663618d9a04fbe6009c7e969"
+eslint-config-cos-ember@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-cos-ember/-/eslint-config-cos-ember-0.4.0.tgz#f1640abc86975e2f8d40702fe7adf33c3b585c29"
   dependencies:
-    eslint-config-cos-base "^0.2.0"
+    eslint-config-cos-base "^0.4.0"
     eslint-plugin-ember "^3.1.2"
 
 eslint-import-resolver-node@^0.2.0:
@@ -3118,6 +3115,12 @@ eslint-plugin-ember@^3.1.2:
   dependencies:
     requireindex "^1.1.0"
     snake-case "^2.1.0"
+
+eslint-plugin-eslint-comments@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-eslint-comments/-/eslint-plugin-eslint-comments-1.0.0.tgz#e36743d1b2c9389e6d484846a5b46d9ade36d69e"
+  dependencies:
+    escape-string-regexp "^1.0.5"
 
 eslint-plugin-import@^2.2.0:
   version "2.2.0"
