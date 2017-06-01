@@ -1,15 +1,16 @@
-import Ember from 'ember';
+import { Router } from 'ember';
 import config from 'ember-get-config';
 
-const Router = Ember.Router.extend({
+const router = Router.extend({
     location: config.locationType,
     rootURL: config.rootURL,
 });
 
-/* eslint array-callback-return:0 */
-Router.map(function () {
+/* eslint-disable array-callback-return */
+router.map(function () {
     this.route('login');
     this.route('me');
 });
+/* eslint-enable */
 
-export default Router;
+export default router;
