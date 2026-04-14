@@ -3,6 +3,16 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/abought/demo-ember-osf/badge.svg)](https://snyk.io/test/github/abought/demo-ember-osf)
 [![Greenkeeper badge](https://badges.greenkeeper.io/abought/demo-ember-osf.svg)](https://greenkeeper.io/)
 
+# Repository Archived
+
+> [!WARNING]
+> **Archived Repository**
+>
+> This project is no longer maintained and is read-only.
+>
+>  Please see our new frontend repository instead at https://github.com/CenterForOpenScience/angular-osf/
+> 
+
 # Demo-ember-osf
 
 This is a demonstration project that consumes the ember-osf Ember addon, produced by the Center for Open Science.
