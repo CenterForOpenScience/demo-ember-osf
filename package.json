@@ -52,7 +52,7 @@
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-osf": "~0.4.0",
-    "ember-page-title": "3.1.5",
+    "ember-page-title": "3.1.6",
     "ember-resolver": "^4.1.0",
     "eslint": "^3.19.0",
     "eslint-config-cos-ember": "^0.4.0",
